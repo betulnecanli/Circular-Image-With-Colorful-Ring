@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularImageWithRingView">
+        <attr name="ringColor" format="color"/>
+        <attr name="ringWidth" format="dimension"/>
+        <attr name="rainbow" format="boolean"/>
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+</resources>

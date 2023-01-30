@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="305dp">
+
+
+        <com.betulnecanli.circularimagewithring.CircularImageWithRingView
+            android:id="@+id/circle_image_view_with_ring"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/b1"
+            android:scaleType="center"
+            app:ringColor="@color/yellow" />
+
+        <com.betulnecanli.circularimagewithring.CircularImageWithRingView
+            android:id="@+id/circle_image_view_with_ring2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/g1"
+            android:scaleType="center"
+            app:rainbow="true"
+            app:ringWidth="5dp" />
+
+        <com.betulnecanli.circularimagewithring.CircularImageWithRingView
+            android:id="@+id/circle_image_view_with_ring9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/g2"
+            android:scaleType="center"
+            app:ringColor="@color/blue" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
