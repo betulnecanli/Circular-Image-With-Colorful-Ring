@@ -7,7 +7,7 @@ An Android library with a custom ImageView that crops the image into a circular 
  ![](https://github.com/betulnecanli/CircularImageWithColorfulRing/blob/master/screenshot/img.jpg?raw=true) 
  
  ##  About
- The custom view has several attributes that can be set such as ringColor to set the color of the ring, ringWidth to set the width of the ring, and rainbow to enable or disable a rainbow effect on the ring. The custom view uses BitmapShader and LinearGradient to apply the image and ring color respectively. The image is centered and scaled according to the scaleType attribute.
+This is a custom Android library that allows you to crop images into circular shape with the added feature of an adjustable colored ring around the circumference. The ring color can also be set to display a rainbow gradient. The library provides an easy-to-use and customizable solution for circular image cropping and ring decoration.
  
 - The Paint class is used to set up various options for how the image and ring will be drawn on the canvas.
 - Path and RectF are used to define the circular shape of the image.
