@@ -32,7 +32,7 @@ This is a custom Android library that allows you to crop images into circular sh
 Step 2. Add the dependency
 ```bash
  dependencies {
-	        implementation 'com.github.betulnecanli:CircularImageWithColorfulRing:-SNAPSHOT'
+	        implementation 'com.github.betulnecanli:CircularImageWithColorfulRing:v1.0.0'
 	}
 ```
  
