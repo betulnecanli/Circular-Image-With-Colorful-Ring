@@ -1,7 +1,7 @@
-# CircularImageWithColorfulRing
+# CircularImageWithColorfulRing [![](https://jitpack.io/v/betulnecanli/CircularImageWithColorfulRing.svg)](https://jitpack.io/#betulnecanli/CircularImageWithColorfulRing)
+
 An Android library with a custom ImageView that crops the image into a circular shape with a colorful ring
 
-[![](https://jitpack.io/v/betulnecanli/CircularImageWithColorfulRing.svg)](https://jitpack.io/#betulnecanli/CircularImageWithColorfulRing)
 
  ###  Preview
  ![](https://github.com/betulnecanli/CircularImageWithColorfulRing/blob/master/screenshot/img.jpg?raw=true) 
