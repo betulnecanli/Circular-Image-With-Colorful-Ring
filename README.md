@@ -1,12 +1,18 @@
-# CircularImageWithColorfulRing [![](https://jitpack.io/v/betulnecanli/CircularImageWithColorfulRing.svg)](https://jitpack.io/#betulnecanli/CircularImageWithColorfulRing)
+#  <h1 align="center">🎨 Circular Image With Colorful Ring Library [![](https://jitpack.io/v/betulnecanli/CircularImageWithColorfulRing.svg)](https://jitpack.io/#betulnecanli/CircularImageWithColorfulRing)
+  </h1>  
+<p align="center">  An Android library with a custom ImageView that crops the image into a circular shape with a colorful ring.</p>
 
-An Android library with a custom ImageView that crops the image into a circular shape with a colorful ring
 
-
- ###  Preview
- ![](https://github.com/betulnecanli/CircularImageWithColorfulRing/blob/master/screenshot/img.jpg?raw=true) 
+ #  <h1 align="center">🖼 Preview </h1>
  
- ##  About
+ <p align="center">
+ <img src="https://github.com/betulnecanli/CircularImageWithColorfulRing/blob/master/screenshot/img.jpg?raw=true"/>
+ 
+ </p>
+
+ 
+ 
+  #  <h1 align="center">🪧 About </h1>
 This is a custom Android library that allows you to crop images into circular shape with the added feature of an adjustable colored ring around the circumference. The ring color can also be set to display a rainbow gradient. The library provides an easy-to-use and customizable solution for circular image cropping and ring decoration.
  
 - The Paint class is used to set up various options for how the image and ring will be drawn on the canvas.
@@ -17,7 +23,8 @@ This is a custom Android library that allows you to crop images into circular sh
 - Bitmap is used to store the drawable as a bitmap for drawing on the canvas.
 - Drawable is used to get the drawable from the ImageView.
  
- ##  Usage
+ 
+   #  <h1 align="center">📌 Usage </h1>
  Step 1. Add the JitPack repository to your build file
  Add it in your root build.gradle at the end of repositories:
 ```bash
@@ -36,7 +43,8 @@ Step 2. Add the dependency
 	}
 ```
  
-# XML Properties
+
+   #  <h1 align="center">📖 XML Properties </h1>
 
 |  Properties          |  Description               |
 |----------------------|----------------------------|
@@ -45,7 +53,8 @@ Step 2. Add the dependency
 |  rainbow   | enable or disable a rainbow effect on the ring  |
 |  scaleType   |  the image is centered and scaled according to the scaleType attribute  |
 
-## Example 
+ 
+ #  <h1 align="center">📎 Example </h1>
 ```bash
   <com.betulnecanli.circularimagewithring.CircularImageWithRingView
             android:id="@+id/circle_image_view_with_ring2"
